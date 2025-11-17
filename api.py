@@ -20,7 +20,7 @@ api_bp = Blueprint("api", __name__)
 # CORS enabled for development; restrict origins in production.
 CORS(api_bp, supports_credentials=True)
 
-DB_CFG = dict(host="localhost", user="root", password="Arnav909@", database="DBMS_PROJECT")
+DB_CFG = dict(host="localhost", user="root", password="your_password", database="DBMS_PROJECT")
 
 def get_db():
     """Return a cached MySQL connection for the current request."""
