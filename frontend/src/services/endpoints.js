@@ -17,8 +17,11 @@ export const endpoints = {
     byId: (id) => `/patients/${id}`,
   },
   matching: {
-    auto: '/matching/auto',
     manual: '/matching/manual',
+  },
+  reports: {
+    summary: '/reports/summary',
+    matches: '/reports/matches',
   },
 }
 

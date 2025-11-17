@@ -32,7 +32,6 @@ export default function Sidebar({ isOpen, onClose }){
         <NavLink to="/patients" className={linkClass}><FiSearch className="me-2"/>{!collapsed && 'Patient List'}</NavLink>
         <NavLink to="/patients/register" className={linkClass}><FiUser className="me-2"/>{!collapsed && 'Register Patient'}</NavLink>
         {!collapsed && <div className="mt-3 small text-uppercase text-muted">Matching</div>}
-        <NavLink to="/matching/auto" className={linkClass}><FiActivity className="me-2"/>{!collapsed && 'Auto Matching'}</NavLink>
         <NavLink to="/matching/manual" className={linkClass}><FiActivity className="me-2"/>{!collapsed && 'Manual Matching'}</NavLink>
         {!collapsed && <div className="mt-3 small text-uppercase text-muted">More</div>}
         <NavLink to="/reports" className={linkClass}><FiBarChart2 className="me-2"/>{!collapsed && 'Reports'}</NavLink>

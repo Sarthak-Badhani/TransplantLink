@@ -11,7 +11,6 @@ import RegisterDonor from '../pages/Donors/RegisterDonor';
 import DonorList from '../pages/Donors/DonorList';
 import RegisterPatient from '../pages/Patients/RegisterPatient';
 import PatientList from '../pages/Patients/PatientList';
-import AutoMatching from '../pages/Matching/AutoMatching';
 import ManualMatching from '../pages/Matching/ManualMatching';
 import Reports from '../pages/Reports';
 import Profile from '../pages/Profile';
@@ -35,7 +34,6 @@ const router = createBrowserRouter([
           { path: 'donors', element: <DonorList /> },
           { path: 'patients/register', element: <RegisterPatient /> },
           { path: 'patients', element: <PatientList /> },
-          { path: 'matching/auto', element: <AutoMatching /> },
           { path: 'matching/manual', element: <ManualMatching /> },
           { path: 'reports', element: <Reports /> },
           { path: 'profile', element: <Profile /> },

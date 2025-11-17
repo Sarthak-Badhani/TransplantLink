@@ -46,23 +46,23 @@ export default function RegisterPatient(){
         {error && <div className="alert alert-danger py-2">{error}</div>}
         <form className="row g-3" onSubmit={onSubmit}>
           <div className="col-md-4">
-            <label className="form-label">Patient_ID</label>
+            <label className="form-label">Patient ID</label>
             <input name="Patient_ID" className="form-control" value={form.Patient_ID} onChange={onChange} required />
           </div>
           <div className="col-md-8">
-            <label className="form-label">organ_req</label>
+            <label className="form-label">Organ Required</label>
             <input name="organ_req" className="form-control" value={form.organ_req} onChange={onChange} required />
           </div>
           <div className="col-md-6">
-            <label className="form-label">reason_of_procurement</label>
+            <label className="form-label">Reason Of Procurement</label>
             <input name="reason_of_procurement" className="form-control" value={form.reason_of_procurement} onChange={onChange} />
           </div>
           <div className="col-md-3">
-            <label className="form-label">Doctor_ID</label>
+            <label className="form-label">Doctor ID</label>
             <input name="Doctor_ID" className="form-control" value={form.Doctor_ID} onChange={onChange} required />
           </div>
           <div className="col-md-3">
-            <label className="form-label">User_ID</label>
+            <label className="form-label">User ID</label>
             <input name="User_ID" className="form-control" value={form.User_ID} onChange={onChange} required />
           </div>
           <div className="col-12">

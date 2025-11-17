@@ -46,11 +46,11 @@ export default function ViewUsers(){
             <thead className="table-light">
             <tr>
               <th>#</th>
-              <th>User_ID</th>
+              <th>User ID</th>
               <th>Name</th>
-              <th>Date_of_Birth</th>
-              <th>Medical_insurance</th>
-              <th>Medical_history</th>
+              <th>Date of Birth</th>
+              <th>Medical Insurance</th>
+              <th>Medical History</th>
               <th>Street</th>
               <th>City</th>
               <th>State</th>

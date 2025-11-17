@@ -45,12 +45,12 @@ export default function DonorList(){
           <table className="table table-hover align-middle small">
             <thead className="table-light">
             <tr>
-              <th>#</th>
-              <th>Donor_ID</th>
-              <th>organ_donated</th>
-              <th>reason_of_donation</th>
-              <th>Organization_ID</th>
-              <th>User_ID</th>
+              <th>S/N</th>
+              <th>Donor ID</th>
+              <th>organ donated</th>
+              <th>reason of donation</th>
+              <th>Organization ID</th>
+              <th>User ID</th>
               <th></th>
             </tr>
             </thead>

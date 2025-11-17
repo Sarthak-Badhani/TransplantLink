@@ -46,11 +46,11 @@ export default function PatientList(){
             <thead className="table-light">
             <tr>
               <th>#</th>
-              <th>Patient_ID</th>
-              <th>organ_req</th>
-              <th>reason_of_procurement</th>
-              <th>Doctor_ID</th>
-              <th>User_ID</th>
+              <th>Patient ID</th>
+              <th>Organ Required</th>
+              <th>Reason Of Procurement</th>
+              <th>Doctor ID</th>
+              <th>User ID</th>
               <th></th>
             </tr>
             </thead>
